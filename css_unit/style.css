@@ -1,0 +1,47 @@
+
+/*main {
+    font-size: 24px;
+}
+
+
+.main__paragraph {
+    font-size: 1em;
+}
+*/
+
+
+section{
+    background-color: orchid;
+    height: 50vh;
+    width: 100vw;
+}
+
+.main_list {
+    font-size: 16px;
+}
+
+.main_list li {
+    font-size: 2em;
+}
+
+.main__paragraph {
+    font-size: 1.6875rem;
+}
+
+.percentage {
+    width: 300px;
+    height: 350px;
+    background-color: palegreen;
+}
+
+.percentage_inner {
+    width: 50%;
+    height: 150px;
+    background-color: purple;
+}
+
+span {
+    background-color: purple;
+    color: #fff;
+    font-size: 1em;
+}
