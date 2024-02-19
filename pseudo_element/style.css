@@ -1,0 +1,29 @@
+/*h1::before{
+    height: 20px;
+    width: 20px;
+    background-color: darkmagenta;
+    content: '';
+    display: block;
+}
+
+h1::after{
+    height: 20px;
+    width: 20px;
+    background-color: darkmagenta;
+    content: '';
+    display: block;
+}*/
+
+h1 {
+    position: relative;
+}
+
+h1:hover::after {
+    content: attr(data-mycontent);
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    background-color: indianred;
+    padding: 5px;
+    color: #fff;
+}
