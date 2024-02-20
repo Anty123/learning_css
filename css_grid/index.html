@@ -9,32 +9,10 @@
        .container {
         height: 100%;
         display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 50px 1fr 50px;
-        grid-template-areas: 
-        ". h h h h h h h h h h h"
-        "m m c c c c c c c c c c"
-        "f f f f f f f f f f f f" 
-        ;
-       }
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-rows: repeat(2, 1fr);
         
-       .header {
-        grid-area: h;
-       }
-
-       .footer{
-        grid-area: f;
-       }
-       
-       .content {
-        grid-area: c;
-       }
-
-       .menu {
-        grid-area: m;
-       }
-
-
+    
     </style>
 
 
@@ -43,10 +21,16 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">HEADER</div>
-        <div class="menu">MENU</div>
-        <div class="content">CONTENT</div>
-        <div class="footer">FOOTER</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
         
     </div>
 </body>
